@@ -14,8 +14,8 @@
 :root {
   --font: "Inter", sans-serif;
   --body-color: #637381;
-  --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --heading-color: #222;
+  --primary-color: #222;
   --white: #ffffff;
 }
 
@@ -899,7 +899,7 @@ p {
 
 .ud-single-pricing.active {
   background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
-  background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
+  background: linear-gradient(180deg, #222 0%, #555 100%);
   border: none;
   padding: 55px 30px;
 }
@@ -1501,7 +1501,7 @@ p {
 }
 
 .ud-widget .ud-footer-logo img {
-  width: 100%;
+  width: 50%;
 }
 
 .ud-widget .ud-widget-desc {
